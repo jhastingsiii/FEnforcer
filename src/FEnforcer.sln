@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FParser", "FParser\FParser.fsproj", "{66C2150F-251F-49F9-9DFD-865A05C92CE8}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CLI", "CLI\CLI.fsproj", "{E587B26D-80B6-4D23-9739-0985F191FF6D}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FParser.Tests", "FParser.Tests\FParser.Tests.fsproj", "{5E9B2320-E260-4D53-AD15-B3ADE34CE2B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66C2150F-251F-49F9-9DFD-865A05C92CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C2150F-251F-49F9-9DFD-865A05C92CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C2150F-251F-49F9-9DFD-865A05C92CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C2150F-251F-49F9-9DFD-865A05C92CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E587B26D-80B6-4D23-9739-0985F191FF6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E587B26D-80B6-4D23-9739-0985F191FF6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E587B26D-80B6-4D23-9739-0985F191FF6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E587B26D-80B6-4D23-9739-0985F191FF6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E9B2320-E260-4D53-AD15-B3ADE34CE2B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9B2320-E260-4D53-AD15-B3ADE34CE2B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9B2320-E260-4D53-AD15-B3ADE34CE2B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9B2320-E260-4D53-AD15-B3ADE34CE2B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
