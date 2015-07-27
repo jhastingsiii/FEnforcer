@@ -97,6 +97,7 @@
     <None Include="App.config" />
     <Compile Include="FReader.Tests.fs" />
     <EmbeddedResource Include="MultiLineRows.csv" />
+    <Compile Include="DelimitedStringParser.Tests.fs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FParser\FParser.fsproj">

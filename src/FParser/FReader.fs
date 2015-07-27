@@ -9,9 +9,9 @@ let ReadLineDelimited (reader:StreamReader) (textQualifier:char) =
             textQualifierIsOpened
         | _ ->
             let first = line.[0]
-            let stillOpened =  (not textQualifierIsOpened && first = textQualifier) || (textQualifierIsOpened && first <> textQualifier)
-
-            lineHasUnclosedTextQualifier textQualifier line.[1..line.Length - 1] stillOpened
+            lineHasUnclosedTextQualifier
+                textQualifier line.[1..line.Length - 1]
+                (if first = textQualifier then not textQualifierIsOpened else textQualifierIsOpened)
 
     let rec readUntilFinished (reader:StreamReader) (textQualifier:char) (currentLine:string) =
         let line = currentLine + reader.ReadLine()
